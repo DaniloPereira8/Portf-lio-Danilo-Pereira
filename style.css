@@ -50,6 +50,12 @@ body {
     font-weight: 600;
 }
 
+#logo{
+    width: 3.4rem;
+    position: absolute;
+    left: 18%;
+}
+
 .navbar a {
     font-size: 1.7rem;
     color: var(--text-color);
@@ -597,6 +603,10 @@ form {
  @media (max-width:1200px) {
     html {
         font-size: 55%;
+    }
+
+    #logo{
+        left: 25%;
     }
 
     .home img {
