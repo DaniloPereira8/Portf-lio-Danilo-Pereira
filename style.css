@@ -19,7 +19,8 @@
 
 html {
     font-size: 62.5%;
-    overflow-x: hidden;}
+    overflow-x: hidden;
+}
 
 body {
     background-color: var(--bg-color);
@@ -144,6 +145,10 @@ section {
     justify-content: space-between;
     width: 34.5rem;
     height: 5rem;
+}
+
+#btn-mais{
+    width:22rem;
 }
 
 .btn-box .btn {
@@ -390,15 +395,15 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 50%;
+    width: 80%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-    width: 10%;
+    width: 70%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    width: 50%;
+    width: 80%;
 }
 
 .about-skills {
