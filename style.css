@@ -284,6 +284,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: moveImage 4s infinite;
 }
 
 .about-img img {
@@ -602,6 +603,14 @@ form {
     font-size: 2rem;
     opacity: 0.4;
 }
+
+
+
+@keyframes moveImage {
+    10% {
+      transform: translateY(-30%); /* A posição inicial */
+    }
+  }    
 
 
 /* responsive screen */
